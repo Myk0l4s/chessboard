@@ -1,0 +1,45 @@
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    border: 5px solid black;
+}
+
+.box .board {
+    display: flex;
+    width: 90%;
+    height: 80%;
+    border: 1px solid red;
+    
+}
+
+
+.fix {
+    display: flex;
+    /* width: 75px;
+    height: 93.75px; */
+    width: calc(100% / 8);
+    height: 12%;
+    border: 1px solid black;
+    
+}
+
+/* .box .board .board__1 {
+    display: inline-block;
+    width: 75px;
+    height: 93.75px;
+    border: 1px solid black;
+} */
+
+
+
