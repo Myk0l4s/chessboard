@@ -7,8 +7,8 @@
 }
 
 .board {
-    width: 70%;
-    height: 80%;
+    width: 80vmin;
+    height: 80vmin;
     border: 5px solid black;
     /* padding: 5%; */
     display: inline-block;
@@ -63,4 +63,9 @@
 .borderB {
     border-bottom: 3px solid black;
 }
-
+/* 
+@media screen (max-width: 800px) {
+    .board { 
+    width: 80vmin;
+    height: 80vmin;
+} */
