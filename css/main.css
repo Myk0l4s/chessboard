@@ -4,6 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../src/a9d6be82c27d2bdf7e44ee151d034c61.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .board {
@@ -12,6 +15,7 @@
     border: 5px solid black;
     /* padding: 5%; */
     display: inline-block;
+    background-color: white;
 }
 
 .board__top1 {
